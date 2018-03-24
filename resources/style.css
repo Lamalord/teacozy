@@ -6,6 +6,8 @@
   
   body{
       background-color: black;
+      font-size: 22px;
+      color: seashell;
   }
 
   header{
@@ -15,8 +17,115 @@
       border-bottom: 1px solid seashell;
       height: 69px;
       position: fixed;
+      width: 100%;
+      padding: 0px 10px;
+      z-index: 1;
+      background-color: black;
   }
 
-  header span{
-      
+header span a{
+      text-decoration: underline;
+      color: seashell;
+      padding: 10px;
   }
+
+  .logo img{
+      height: 50px; 
+  }
+
+  .main{
+      width: 1200px;
+      margin: auto;
+      opacity: 0.9;
+      position: relative;
+      top: 70px;
+      text-align: center;
+  }
+
+  h2, h3, h4 {
+    padding: 10px;
+}
+
+#mission{
+      height: 700px;
+      background-image: url("./images/img-mission-background.jpg");
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+.headimage_content{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: space-between;
+    flex-direction: column;
+    width: 1200px;
+}
+
+#teaofthemonth{
+    width: 1000px;
+    height: 700px;
+    display: block;
+    margin: 70px auto;
+}
+
+.sorts{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.product img{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+#locations{
+    height: 500px;
+    background-image: url("./images/img-locations-background.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+  }
+
+.locations_content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+}
+
+.store{
+    opacity: 1;
+    background-color: black;
+    flex-basis: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    margin: 5px 20px;
+}
+
+footer{
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.copy{ 
+    text-align: left !important;
+}
